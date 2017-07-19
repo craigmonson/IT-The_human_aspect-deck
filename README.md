@@ -3,4 +3,8 @@ Understanding the “hard” side of IT is a fairly simple prospect.  The skills
 
 Hosted on github pages: https://craigmonson.github.io/IT-The_human_aspect-deck
 
+Created with WebSlides: https://webslides.tv/
+
+Background images from Unsplash: https://unsplash.com/
+
 **NOTE**: The last 2 slides are sources, and suggested reading.  You can get to them from the first slide just by using your left arrow key.
