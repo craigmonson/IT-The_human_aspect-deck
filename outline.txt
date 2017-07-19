@@ -1,0 +1,171 @@
+IT: The human aspect
+
+Abstract:
+Understanding the “hard” side of IT is a fairly simple prospect.  The skills, processes and technology tend to be simpler to grasp for us tech heads.  But what about the soft side?  The communication, team composition, and leadership... even an individuals happiness can have a huge impact on a project being a success or not.  I’d like to take a journey on an often overlooked aspect of IT: The human aspect.  We’ll look at how being human in a technological day to day can affect the outcomes of a project, and what we can do to allow more humanity into our daily, digital lives for the betterment of everything we do! 
+
+
+Who am I?
+  - name
+  - profession
+  - where I work. (2ndWatch plug)
+
+  From this we learn about me.  We might be able to figure out where my game is
+  at as well. ex:  NASA vs Comcast
+
+  Individual proficiency: dff from lowest to highest: 10x
+  https://read.amazon.com/kp/embed?asin=B00JI54HCU&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_CMJBzbPGS8BCJ
+  ex: me vs LeBron James given 60 sec: he: 10 me ?? (100)
+  Come back to this...
+
+Example: Agile: SCRUM
+  - backlog
+  - plan
+  - sprint (stand up)
+  - release / review
+  - retrospective
+
+The process is the machine.
+
+What's missing?  The big wins in SCRUM (or any other process for that matter) aren't from the hard side of the process, but the soft side:  The Culture.
+  Come back to this...
+
+How not to do IT (some examples):
+  - Hyper focused silos
+    - DB role
+    - Ops role
+    - Arch role
+    - QA role
+    These can happen organizationally (teams) or individually "He's the db guy, I don't do that"
+    ex:
+    Organizationnaly:
+      - Tim is our DB contact from the DB team.
+      - Harry is our ops contact from the ops team.
+      - Iona is our QA contact from the QA team.
+      - Sam is our Architect contact from the lazy-I-don't-want-to-actually-do-any-work team
+    Individually (cross functional teams)
+      - Sarah does the html.
+      - Ulysses does our javascript.
+      - Chris does the golang.
+      - Kim does our reporting.
+      - Sandy is our designer.
+    Sometimes you combine the two (this sucks)
+
+  - Dictation from on high
+    - Managers decide what gets done.
+    - Managers decide how to do it.
+    - Managers decide what the teams needs are.
+    - Managers hire who they want - team composition.
+    - Managers create standards.
+    - "The teams aren't ready to try x yet."
+    - "Stretch goals, people."
+    - "This is enterprise business, it won't work here."
+
+  - Organizational problems:
+    3 cultures model:
+    Pathological
+    - Low cooperation 
+    - Messengers Shot
+    - Responsibilities shirked
+    - Bridging discouraged
+    - Failure scapegogating 
+    - Novelty crushed
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1765804/pdf/v013p0ii22.pdf
+
+
+Culture -
+  - the set of shared attitudes, values, goals, and practices that characterizes an institution or organization.
+  - the integrated pattern of human knowledge, belief, and behavior that depends upon the capacity for learning and transmitting knowledge to succeeding generations.
+  The best one:
+   - the act or process of cultivating living material (such as bacteria or viruses(or nerds)) in prepared nutrient media
+  https://www.merriam-webster.com/dictionary/culture
+  Note: None of those definitions are specific to technology.
+
+Culture has a huge impact on the success of an endeavor, and culture is cultivated through leadership, good or bad.
+When talking about agile, lean, devops, etc, the primary focus on those ideals is dealing with change.  This applies to cultural change as well.
+
+No surpise that This years Puppet Labs "2017 State of DevOps Report"
+https://puppet.com/resources/whitepaper/state-of-devops-report
+calls out "Transformational Leadership" as "highly correlated with IT performance."
+
+They rated leaders on 5 dimensions:
+  - Vision
+  - Inspirational Communication
+  - Intellectual Stimulation
+  - Supportive Leadership
+  - Personal Recognition
+
+"The characteristics of transformational leadership
+are highly correlated with IT performance. "
+
+"High-performing teams reported
+having leaders with the strongest behaviors across
+all dimensions: vision, inspirational communication,
+intellectual stimulation, supportive leadership, and
+personal recognition. In contrast, low-performing
+teams reported the lowest levels of these leadership
+characteristics. The differences we found were all at
+statistically significant levels. "
+
+"Our analysis also found that transformational leadership
+is highly correlated with employee Net Promoter Score
+(NPS). We find transformational leaders in places where
+employees are happy, loyal, and engaged."
+
+Culture isn't just a leadership thing, it's an individual thing as well: Happy employees are more productive.
+
+Productivity experiments from the Social Market Foundation, found that happier individuals have approximately 12% greater productivity than the control.
+http://www.smf.co.uk/wp-content/uploads/2015/10/Social-Market-Foundation-Publication-Briefing-CAGE-4-Are-happy-workers-more-productive-281015.pdf
+
+In IT, computers don't care about how happy you are.  Processes don't care about how happy you are.  Being happy is a wholly human characteristic that YOU care about.  Because you're a human, and not a robot.
+
+
+Whaddyagonnadoaboutit?
+  Focus on the team
+    Why? - Unlike individuals outperforming on a 10:1 ratio, Teams outperform on a 100:1 ratio!
+    https://read.amazon.com/kp/embed?asin=B00JI54HCU&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_CMJBzbPGS8BCJ
+    - NO SILOS.  Fully cross-functional.
+    - Pair up - work together on tasks.
+    - T shaped skill sets: Broad understanding, A few in depth - Complimentary skills between individuals.
+    - Empower the teams to make decisions about technology and tools.
+    - Measure your happiness!
+    - Allow failure (small), and own it as a team.
+
+
+  Don't be a manager, be a LEADER!
+  Managers manage.  They treat people, er "resources" like sheep, or worse, robots.  They'll hire loyalty over any other personality trait. DON'T BE A MANAGER.
+  Leaders inspire, engage, and serve their teams.
+    - Help them to set a team vision
+    - Help them to set team goals
+    - Be a servant to your team
+    - Empower your team (give them space)
+
+    "The underlying idea is that leaders, by their preoccupations,
+    shape a unit’s culture. Through their symbolic actions,
+    as well as rewards and punishments, leaders communicate
+    what they feel is important. These preferences then become
+    the preoccupation of the organisation’s workforce, because
+    rewards, punishments, and resources follow the leader’s
+    preferences"
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1765804/pdf/v013p0ii22.pdf
+
+  A big hint:
+    Leadership is a skill, just like any other, so Do what you'd do if you were learning a new language:
+      - Read some books
+      - Go to seminars
+      - Scour the internet
+
+  On Culture:
+    This is the responsibility for all:
+    (3 cultures model again)
+    Generative:
+      - Performance oriented
+      - High cooperation
+      - Messengers trained
+      - Risks are shared
+      - Bridging encouraged
+      - Failure inquiry
+      - Novelty implemented
+      https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1765804/pdf/v013p0ii22.pdf
+
+Conclusion:
+  Being humain in the IT world is not only possible, but PREFERABLE.  A rich and rewarding culture benefits, not only our personal selves, but the organization as a whole.  Leaders should stop focusing on managing the team, and start focusing on cultivating a fun, engaging, and challenging culture.  Treating people like people is a win win for everyone involved.

@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- CLEAN MARKUP = GOOD KARMA.
+			Hi source code lover,
+
+			you're a curious person and a fast learner ;)
+			Let's make something beautiful together. Contribute on Github:
+			https://github.com/jlantunez/webslides
+
+			Thanks,
+			@jlantunez.
+		-->
+
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i|Maitree:200,300,400,600,700|Tangerine&subset=latin-ext" rel="stylesheet">
+
+		<!-- CSS Base -->
+		<link rel="stylesheet" type="text/css" media="all" href="static/css/base.css">
+
+		<!-- CSS Colors -->
+		<link rel="stylesheet" type="text/css" media="all" href="static/css/colors.css">
+
+		<!-- Optional - CSS SVG Icons (Font Awesome) -->
+		<link rel="stylesheet" type="text/css" media="all" href="static/css/svg-icons.css">
+
+		<!-- SOCIAL CARDS (ADD YOUR INFO) -->
+<style>
+.bg-gradient-rb {
+    background: radial-gradient(ellipse at center, #444 0%, #000 100%);
+    background-image: radial-gradient(at center center, rgb(100, 100, 100) 0%, rgb(0, 0, 0) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.fin {
+	font-family: 'Tangerine', cursive;
+	font-size: 500%;
+}
+
+.credit {
+	font-size: 70% !important;
+}
+.credit:before {
+	content: "* ";
+}
+.center-box {
+	width: 100%;
+		margin: 0 0 0 0;
+}
+</style>
+
+	</head>
+	<body>
+		<main role="main">
+			<article id="webslides">
+
+				<!-- Quick Guide
+					- Each parent <section> in the <article id="webslides"> element is an individual slide.
+					- Vertical sliding = <article id="webslides" class="vertical">
+					- <div class="wrap"> = container 1200px
+				-->
+
+				<section class="bg-black aligncenter">
+					<!-- credit: https://source.unsplash.com/QJHzMkfrJpI -->
+					<span class="background dark" style="background-image:url('static/images/intro.jpg')"></span>
+					<!--.wrap = container 1200px with fadein animation -->
+					<div class="wrap">
+						<h1 class="text-landing">IT: The human aspect</h1>
+						<p class="text-subtitle">Craig Monson - <a href="mailto:cmonson@2ndWatch.com">cmonson@2ndWatch.com</a></p>
+					</div>
+					<!-- .end .wrap -->
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<h1>Who Am I?</h1>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<div class="content-center">
+						<ul class="flexblock specs content-center">
+							<li>Name - Craig Monson</li>
+							<li>Profession - IT dude</li>
+							<li>Where I work - 2ndWatch</li>
+						</ul>
+						</div>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-white">
+					<div class="wrap">
+						<!-- credit: http://2ndwatch.com/wp-content/uploads/2013/10/2nd-Watch-Logo.png -->
+						<img src="static/images/2nd-Watch-Logo.png">
+						<hr>
+						<p class="text-subtitle source">(psst!  We're hiring - we have lots of fun, big clients like Coka Cola, Toyota, AIG - <a href="http://2ndwatch.com/about-us/careers/">openings</a>)</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">Me.  With just a little information we've learned a more about who I am.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">We may even be able to discern skill level based on where I work.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<!-- credit: https://www.festisite.com/static/partylogo/img/logos/nasa.png -->
+						<img src="static/images/nasa.png">
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-white">
+					<div class="wrap">
+						<!-- credit: http://www.userlogos.org/files/logos/macleod.mac/comcast.2.u.png -->
+						<img src="static/images/comcast.png">
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">Individual proficiency causes differences in productivity of up to 10 times.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">For example:  If I was to play LeBron James for a minute, he would score 10 points, and I would score?</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-data">100</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">We'll come back to this...</p>
+					</div>
+				</section>
+
+				<section class="aligncenter slide bg-black">
+					<div class="wrap">
+						<div class="content-center">
+							<h2>Example Process: SCRUM</h2>
+						</div>
+						<ul class="flexblock steps">
+							<li class="bg-white"><h2>Plan</h2><p>Pull work items from a backlog, and agree what can be delivered by the next sprint.</p></li>
+							<li class="bg-white"><div class="process step-2"></div><h2>Sprint</h2><p>Do all the stuff you agreed on, from most valuable to least.  Have daily standups.</p></li>
+							<li class="bg-white"><div class="process step-3"></div><h2>Release / Review</h2><p>Feature owners sign off on completed work, and you do a deployment.</p></li>
+							<li class="bg-white"><div class="process step-4"></div><h2>Retrospective</h2><p>Review the sprint and improve the process.</p></li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">The big wins in SCRUM aren't from the hard mechanics of the process, but the softer, human side:</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<h1>Culture</h1>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">We'll come back to this too...</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<!-- credit: https://source.unsplash.com/uWwN03Mg4Wg -->
+					<span class="background dark" style="background-image:url('static/images/how_not_to.jpg')"></span>
+					<div class="wrap">
+						<h1>How not to do IT</h1>
+						<p class="text-subtitle">Examples of the crap we've all put up with.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<h2>Hyper focused silos.</h2>
+						<hr>
+						<p class="text-intro">Revolve around roles: DBA role, Ops Role, Dev Role.</p>
+						<p class="text-intro">These can be Organizational or Individual.</p>
+					</div>
+				</section>
+
+				<section class="slide bg-black">
+					<div class="wrap">
+						<div class="content-center">
+							<h2>Organizational</h2>
+						</div>
+						<hr>
+						<div class="grid sm">
+							<div class="column">&nbsp;</div>
+							<div class="column">
+								<li>Tim is our DB contact from the DB team.</li>
+								<li>Harry is our ops contact from the ops team.</li>
+								<li>Iona is our QA contact from the QA team.</li>
+								<li>Sam is our Architect contact from the lazy-I-don't-want-to-actually-do-any-work team.</li>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="slide bg-black">
+					<div class="wrap">
+						<div class="content-center">
+							<h2>Individual</h2>
+						</div>
+						<hr>
+						<div class="grid sm">
+							<div class="column">&nbsp;</div>
+							<div class="column">
+								<li>Sarah does the html.</li>
+								<li>Ulysses does our javascript.</li>
+								<li>Chrisl does the golang.</li>
+								<li>Kim does our reporting.</li>
+								<li>Sandy is our designer.</li>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="slide bg-black">
+					<div class="wrap">
+						<div class="content-center">
+							<h2>You can even Wonder-Twin combine the two:</h2>
+						</div>
+						<div class="grid sm">
+							<div class="column">Organizational</div>
+							<div class="column">
+								<li><b><font class="text-intro">T</font></b> im is our DB contact from the DB team.</li>
+								<li><b><font class="text-intro">H</font></b> arry is our ops contact from the ops team.</li>
+								<li><b><font class="text-intro">I</font></b> ona is our QA contact from the QA team.</li>
+								<li><b><font class="text-intro">S</font></b> am is our Architect contact from the lazy-I-don't-want-to-actually-do-any-work team.</li>
+							</div>
+						</div>
+						<div class="grid sm">
+							<div class="column">Individual</div>
+							<div class="column">
+								<li><b><font class="text-intro">S</font></b> arah does the html.</li>
+								<li><b><font class="text-intro">U</font></b> lysses does our javascript.</li>
+								<li><b><font class="text-intro">C</font></b> hris does the golang.</li>
+								<li><b><font class="text-intro">K</font></b> im does our reporting.</li>
+								<li><b><font class="text-intro">S</font></b> andy is our designer.</li>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="slide bg-black">
+					<div class="wrap">
+						<div class="content-center">
+							<h2>Dictation from on high</h2>
+						</div>
+						<hr>
+						<div class="grid sm">
+							<div class="column">&nbsp;</div>
+							<div class="column">
+								<li>Managers decide what gets done.</li>
+								<li>Managers decide how to do it.</li>
+								<li>Managers decide what the teams needs are.</li>
+								<li>Managers hire who they want - team composition.</li>
+								<li>Managers create standards.</li>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="slide bg-black">
+					<div class="wrap">
+						<div class="content-center">
+							<h2>Favorite dictator quotes</h2>
+						</div>
+						<hr>
+						<div class="grid sm">
+							<div class="column">&nbsp;</div>
+							<div class="column">
+								<li>"The teams aren't ready to try x yet."</li>
+								<li>"Stretch goals, people."</li>
+								<li>"This is enterprise business, it won't work here."</li>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="slide bg-black">
+					<div class="wrap">
+						<div class="content-center">
+							<h2>Cultural kicks to your bitz and pieces.</h2>
+							<p class="text-subtitle credit"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1765804/pdf/v013p0ii22.pdf">A typology of organisational cultures - R Westrum</a></p>
+						</div>
+						<hr>
+						<div class="grid sm">
+							<div class="column">Pathological</div>
+							<div class="column">
+								<li>Low cooperation</li>
+								<li>Messengers Shot</li>
+								<li>Responsibilities shirked</li>
+								<li>Bridging discouraged</li>
+								<li>Failure scapegogating</li>
+								<li>Novelty crushed</li>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">None of these problems are solved by SCRUM, or any other process. These are human problems.</p>
+						<p class="text-intro">Although they can't be solved by a process, they can impact both processes and outcomes greatly.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">What, then, can we do?</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<!-- credit: https://source.unsplash.com/kgA5cRwr5IE -->
+					<span class="background dark" style="background-image:url('static/images/culture_one.jpg')"></span>
+					<div class="wrap">
+						<h1>Culture</h1>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<!-- credit: https://source.unsplash.com/kgA5cRwr5IE -->
+					<span class="background dark" style="background-image:url('static/images/culture_one.jpg')"></span>
+					<div class="wrap">
+						<h1>Culture</h1>
+						<p class="text-subtitle credit"><a href="https://www.merriam-webster.com/dictionary/culture">merriam-webster</a></p>
+						<p class="flexblock text-intro">the set of shared attitudes, values, goals, and practices that characterizes an institution or organization.</p>
+						<hr>
+						<p class="text-intro">the integrated pattern of human knowledge, belief, and behavior that depends upon the capacity for learning and transmitting knowledge to succeeding generations.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<!-- credit: https://source.unsplash.com/kgA5cRwr5IE -->
+					<span class="background dark" style="background-image:url('static/images/culture_one.jpg')"></span>
+					<div class="wrap">
+						<h1>Culture</h1>
+						<p class="text-subtitle credit"><a href="https://www.merriam-webster.com/dictionary/culture">merriam-webster</a></p>
+						<p class="text-intro">the act or process of cultivating living material (such as bacteria or viruses(or nerds)) in prepared nutrient media</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">Culture has a huge impact on the success of an endeavor, and culture is cultivated through leadership, good or bad.  When talking about agile, lean, devops, etc, the primary focus on those ideals is dealing with change.  This applies especially to cultural change as well.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<h2>Puppet Labs "2017 State of DevOps Report"</h2>
+						<p class="text-subtitle credit"><a href="static/docs/2017-state-of-devops-report.pdf">State Of DevOps 2017 - Dr. Nicole Forsgren, Gene Kim, Jez Humble, Alanna Brown and Nigel Kersten</a></p>
+						<p class="text-intro">It's no surprise that "Transformational Leadership" is called out in the report.</p>
+					</div>
+				</section>
+
+				<section class="slide bg-black">
+					<div class="wrap">
+						<div class="content-center">
+							<h4>The 5 dimensions of Transformational Leaders.</h4>
+						</div>
+						<hr>
+						<div class="grid sm">
+							<div class="column">&nbsp;</div>
+							<div class="column">
+								<li>Vision</li>
+								<li>Inspirational Communication</li>
+								<li>Intellectual Stimulation</li>
+								<li>Supportive Leadership</li>
+								<li>Personal Recognition</li>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<h2>Puppet Labs "2017 State of DevOps Report"</h2>
+						<p class="text-subtitle credit"><a href="https://puppet.com/resources/whitepaper/state-of-devops-report">State Of DevOps 2017 - Dr. Nicole Forsgren, Gene Kim, Jez Humble, Alanna Brown and Nigel Kersten</a></p>
+						<p class="text-intro"><pre>"The characteristics of transformational leadership are highly correlated with IT performance."</pre></p>
+						<p class="text-intro"><pre>"High-performing teams reported having leaders with the strongest behaviors across all dimensions: vision, inspirational communication, intellectual stimulation, supportive leadership, and personal recognition. In contrast, low-performing teams reported the lowest levels of these leadership characteristics. The differences we found were all at statistically significant levels."</pre></p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<h2>Puppet Labs "2017 State of DevOps Report"</h2>
+						<p class="text-subtitle credit"><a href="https://puppet.com/resources/whitepaper/state-of-devops-report">State Of DevOps 2017 - Dr. Nicole Forsgren, Gene Kim, Jez Humble, Alanna Brown and Nigel Kersten</a></p>
+						<p class="text-intro"><pre>"Our analysis also found that transformational leadership is highly correlated with employee Net Promoter Score (NPS). We find transformational leaders in places where employees are happy, loyal, and engaged."</pre></p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">Culture isn't just a leadership thing, it's an individual thing as well: Happy employees are more productive.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<h2>Social Market Foundation</h2>
+						<p class="text-subtitle credit"><a href="http://www.smf.co.uk/wp-content/uploads/2015/10/Social-Market-Foundation-Publication-Briefing-CAGE-4-Are-happy-workers-more-productive-281015.pdf">Are Happy Workers More Productive - DANIEL Sgroi</a></p>
+						<p class="text-intro">They found that happier individuals have approximately 12% greater productivity than the control.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-subtitle"><i>You see:</i></p>
+						<p class="text-intro">In IT, computers don't care about how happy you are.  Processes don't care about how happy you are.  Being happy is a wholly human characteristic that YOU care about.  Because you're a human...</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">... not a robot</p>
+					</div>
+				</section>
+
+
+				<section class="slide aligncenter bg-black">
+					<!-- credit: https://source.unsplash.com/_0JpjeqtSyg -->
+					<span class="background dark" style="background-image:url('static/images/whatyagonnado.jpg')"></span>
+					<div class="wrap">
+						<h1>Whaddyagonnadoaboutit?</h1>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<!-- credit: https://source.unsplash.com/Dph00R2SwFo -->
+					<span class="background dark" style="background-image:url('static/images/team_focus.jpg')"></span>
+					<div class="wrap">
+						<h2>Team Focus</h2>
+						<p class="text-intro">why?</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">Unlike individuals outperforming on a 10:1 ratio from best to worst, Teams outperform on a 100:1 ratio.</p>
+						<p class="text-subtitle credit"><a href="http://a.co/0YOeEEy">SCRUM: The art of doing twice the work in half the time. - Jeff Sutherland et al.</a></p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">"There's no I in TEAM"</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">BS</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<h1>TEEIM</h1>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">Individual happiness is important, but so is a focus on the teeim.  Do both!  Teeims can be happy too.</p>
+					</div>
+				</section>
+
+				<section class="slide bg-black">
+					<div class="wrap">
+						<div class="content-center">
+							<h4>TEEIM Focus things to try</h4>
+						</div>
+						<hr>
+						<div class="grid sm">
+							<div class="column">&nbsp;</div>
+							<div class="column">
+								<li>NO SILOS.  Fully cross-functional.</li>
+								<li>Pair up: work together on tasks to broaden your skills.</li>
+								<li>T shaped skill sets: Broad understanding, A few in depth</li>
+								<li>Complimentary skills between individuals.</li>
+								<li>Empower the teeims to make decisions about technology and tools.</li>
+								<li>Measure your happiness!</li>
+								<li>Allow failure (small), and own it as a teeim.</li>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<!-- credit: https://source.unsplash.com/D9KylJ9AZqw -->
+					<span class="background dark" style="background-image:url('static/images/manager.jpg')"></span>
+					<div class="wrap">
+						<h2>Don't be a Manager, be a Leader</h2>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">Managers manage.  They treat people as "resources"... like sheep, or worse, machines that can just be programmed and told what to do.  They'll take loyalty over any other trait, which will destroy teeim integrity and trust.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<h2>DON'T BE A MANAGER.</h2>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<h2>Leaders, on the other hand...</h2>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">Leaders inspire, engage, and serve their teeims.</p>
+					</div>
+				</section>
+
+				<section class="slide bg-black">
+					<div class="wrap">
+						<div class="content-center">
+							<h4>Leadership things to try</h4>
+						</div>
+						<hr>
+						<div class="grid sm">
+							<div class="column">&nbsp;</div>
+							<div class="column">
+								<li>Help them to set a teeim vision</li>
+								<li>Help them to set teeim goals</li>
+								<li>Be a servant to your teeim</li>
+								<li>Empower your teeim (give them space)</li>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro"><pre>"The underlying idea is that leaders, by their preoccupations, shape a unit’s culture. Through their symbolic actions, as well as rewards and punishments, leaders communicate what they feel is important. These preferences then become the preoccupation of the organisation’s workforce, because rewards, punishments, and resources follow the leader’s preferences"</pre></p>
+						<p class="text-subtitle credit"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1765804/pdf/v013p0ii22.pdf">A typology of organisational cultures - R Westrum</a></p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-subtitle">(psst... I've got a hint for ya...)</h2>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">Leadership is a skill like any other.  If you want to learn more, or get better, do what you'd do if you were learning a new technology or programming language:  Grab some books, join some meetups, take some classes and Google.</h2>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<!-- credit: https://source.unsplash.com/7GYX8IMaudo -->
+					<span class="background dark" style="background-image:url('static/images/culture_two.jpg')"></span>
+					<div class="wrap">
+						<h2>On Culture</h2>
+					</div>
+				</section>
+
+				<section class="slide bg-black">
+					<div class="wrap">
+						<div class="content-center">
+							<h2>On Culture.</h2>
+							<p class="text-subtitle credit"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1765804/pdf/v013p0ii22.pdf">A typology of organisational cultures - R Westrum</a></p>
+						</div>
+						<hr>
+						<div class="grid sm">
+							<div class="column">Generative (the best of the 3)</div>
+							<div class="column">
+								<li>Performance oriented</li>
+								<li>High cooperation</li>
+								<li>Messengers trained</li>
+								<li>Risks are shared</li>
+								<li>Bridging encouraged</li>
+								<li>Failure inquiry</li>
+								<li>Novelty implemented</li>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">Culture is the responsibility for all.  Although driven by Leadership...</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-subtitle">(DON'T BE A MANAGER)</h2>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<div class="wrap">
+						<p class="text-intro">... culture growth benefits from involvement from ALL facets of the organization.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<!-- credit: https://source.unsplash.com/sk3zYkMbySk -->
+					<span class="background dark" style="background-image:url('static/images/conclusion.jpg')"></span>
+					<div class="wrap">
+						<h2>Conclusion</h2>
+						<p class="text-intro">Being human in the IT world is not only possible, but PREFERABLE.  A rich and rewarding culture benefits, not only our personal selves, but the organization as a whole.  Leaders should stop focusing on managing the teeim, and start focusing on cultivating a fun, engaging, and challenging culture.  Treating people like people is a win win for everyone involved.</p>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<!-- https://source.unsplash.com/JYvF1iMJpTY -->
+					<span class="background dark" style="background-image:url('static/images/fin.jpg')"></span>
+					<div class="wrap">
+						<p class="fin">Fin</h2>
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<!-- https://source.unsplash.com/JYvF1iMJpTY -->
+					<span class="background dark" style="background-image:url('static/images/fin.jpg')"></span>
+					<div class="wrap">
+						<h2>Sources</h2>
+						<hr>
+						<div class="content-left center-box">
+							<p>Slides created using: <a href="https://webslides.tv/">WebSlides</a></p>
+							<p>Background art from: <a href="https://unsplash.com/">Unsplash</a></p>
+							<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1765804/pdf/v013p0ii22.pdf">A typology of organisational cultures - R Westrum</a></p>
+							<p><a href="https://www.merriam-webster.com/dictionary/culture">merriam-webster</a></p>
+							<p><a href="static/docs/2017-state-of-devops-report.pdf">State Of DevOps 2017 - Dr. Nicole Forsgren, Gene Kim, Jez Humble, Alanna Brown and Nigel Kersten</a></p>
+							<p><a href="http://www.smf.co.uk/wp-content/uploads/2015/10/Social-Market-Foundation-Publication-Briefing-CAGE-4-Are-happy-workers-more-productive-281015.pdf">Are Happy Workers More Productive - DANIEL Sgroi</a></p>
+							<p><a href="http://a.co/0YOeEEy">SCRUM: The art of doing twice the work in half the time. - Jeff Sutherland et al.</a></p>
+						</div>
+						
+					</div>
+				</section>
+
+				<section class="slide aligncenter bg-black">
+					<!-- https://source.unsplash.com/JYvF1iMJpTY -->
+					<span class="background dark" style="background-image:url('static/images/fin.jpg')"></span>
+					<div class="wrap">
+						<h2>Suggested Reading</h2>
+						<hr>
+						<div class="content-left center-box">
+							<p><a href="http://a.co/dw6lVa2">The 5 Levels of Leadership: Proven Steps to Maximize Your Potential - John C. Maxwell</a></p>
+							<p><a href="http://a.co/bxUsnOL">Turn the Ship Around!: A True Story of Turning Followers into Leaders - L. David Marquet et al.</a></p>
+							<p><a href="http://a.co/hHH86sU">Leading Change - John P. Kotter</a></p>
+							<p><a href="http://a.co/2Pu9gwk">The Toyota Way: 14 Management Principles from the World's Greatest Manufacturer - Jeffrey Liker</a></p>
+							<p><a href="http://a.co/gvi9hks">The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win - Gene Kim et al.</a></p>
+							<p><a href="http://a.co/eeY05e4">Peopleware: Productive Projects and Teams - Tom DeMarco et al.</a></p>
+							<p><a href="http://a.co/0YOeEEy">SCRUM: The art of doing twice the work in half the time. - Jeff Sutherland et al.</a></p>
+						</div>
+						
+					</div>
+				</section>
+
+			</article>
+		</main>
+		<!--main-->
+
+		<!-- Required -->
+		<script src="static/js/webslides.js"></script>
+		
+		<script>
+			window.ws = new WebSlides(); 
+		</script>
+		
+		<!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+		<script defer src="static/js/svg-icons.js"></script>
+
+	</body>
+</html>

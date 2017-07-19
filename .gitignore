@@ -1,0 +1,13 @@
+.ash_history
+*.sw*
+credsdb.html
+public/test_bad_perms.txt
+
+*.coverprofile
+
+handler.so
+handler.zip
+handler/*.*
+
+# Serverless directories
+.serverless
